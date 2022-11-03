@@ -5,12 +5,13 @@
 # REQUIRED
 
 # The title of the document
-title = "Welcome to Bartholomew"
+title = "Todo list App with Bartholomew and JavaScript"
+ 
 
 # OPTIONAL
 
 # The description of the page.
-description = "The Micro-CMS for WebAssembly and Spin"
+description = "Enter text into the input field to add items to your list and then tap an item after inputing a task."
 
 # The name of the template to use. `templates/` is automatically prepended, and `.hbs` is appended.
 # So if you set this to `blog`, it becomes `templates/blog.hbs`.

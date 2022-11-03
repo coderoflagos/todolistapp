@@ -4,6 +4,8 @@
 <head>
     {{! Use the formatter.title and formatter.description in the head }}
     <title>{{page.head.title}} | {{site.info.title}}</title>
+    	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {{#if page.head.description}}
     {{! Only render the description if it exists }}
     <meta name="description" content="{{page.head.description}}">
@@ -20,7 +22,7 @@
         /* pretend we have some style */
         body {
             margin-top: 1em;
-            margin-left: 5em;
+          
         }
 
         nav {
@@ -38,3 +40,4 @@
         {{> navbar }}
         <main>
             <div class="row">
+

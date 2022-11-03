@@ -1,4 +1,4 @@
-name = "bartholomew-template"
+name = "todo-listapp"
 spin_version = "1"
 version = "0.1.0"
 description = "Your new Bartholomew website."
